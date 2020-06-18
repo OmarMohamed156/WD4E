@@ -1,0 +1,62 @@
+.container{
+ background-color: cadetblue;
+ display: grid;
+ grid-template-columns:repeat(auto-fit,50%);
+ grid-template-rows: repeat(auto-fit,50%);
+ min-height: 300px;
+ margin:10%;
+}
+.A{
+ background-color: coral;
+ text-align: center;
+}
+.B{
+ background-color: cornflowerblue;
+ text-align: center;
+}
+.C{
+ background-color: crimson;
+ text-align: center;
+}
+
+.D{
+ background-color: darkmagenta;
+ text-align: center;
+}
+.A:hover{
+ cursor: crosshair;
+ transform: scale(1.2,1.2);
+}
+
+.B:hover{
+ cursor: crosshair;
+ transform: scale(1.2,1.2);
+ 
+}
+.C:hover{
+ cursor: crosshair;
+ transform: scale(1.2,1.2);
+}
+.D:hover{
+ cursor: crosshair;
+ transform: scale(1.2,1.2);
+}
+
+#box-container{
+ height: 500px;
+ display: flex;
+ background-color: dimgrey;
+}
+
+#box1{
+ background-color: darkolivegreen;
+ width: 30%;
+ height: 80%;
+}
+
+#box2{
+ background-color: darkorchid;
+ width: 30%;
+ height: 80%;
+ align-self: center;
+}

@@ -1,0 +1,68 @@
+body{
+ background-color: #293f50;
+ color: #888;
+ font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ background:         linear-gradient(#293f50 ,#648880);
+}
+
+.hero{
+  color: #000000;
+  line-height: 100px;
+  padding:  60px 0px 44px 0px;
+  text-align: center;
+  clear: both;
+  background: linear-gradient(to right,#84e8c0 ,#34c4c9);
+  min-width: 100%;
+  min-height: 100%;
+  background-position: unset;
+  margin: 0;
+}
+
+.btn{
+  border-radius: 5px;
+  color: teal;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  border: solid;
+}
+button a {
+ text-decoration: none;
+ color: #000000;
+}
+button a:hover{
+ color: teal;
+}
+header{
+  padding-bottom: 100px;
+  padding-top: 10px;
+}
+h1 a{
+  float: left;
+  text-decoration: none;
+  color: white;
+}
+h1 a:hover{
+  color: teal;
+}
+h3{
+  float: left;
+  clear: both;
+  color: white;
+}
+nav a{
+  border: white;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: right;
+  margin: 10px;
+}
+nav a:hover{
+  color: teal;
+}
+small{
+  color: white;
+}

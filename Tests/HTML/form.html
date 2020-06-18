@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>nn</title>
+  <script src="../JS/form.js"></script>
+  <link rel="stylesheet" href="../css/form.css">
+ </head>
+ <body onload="loadFruits()">
+  <h1 id="test">tester</h1>
+  <button type="button" onclick="displaydate()">Click to show date </button>
+  <p onclick="message('hi')" id="one">
+   hello
+   there
+  </p>
+  <div onclick="console.log(this.innerHTML)">
+   hi there
+  </div>
+
+  <div id="11" onclick="displayId(this)">
+   cracked
+  </div>
+  <br>
+  <br>
+   <button onclick="myFunction()">Add Your Favorite!</button>
+   <button onclick="remove()">remove last fruit</button>
+   <p id="fruits"></p>
+   <form>
+     <fieldset>
+       <legend> First form </legend>
+     <label for="name">Name: <input type="text" id="name" name="name" required placeholder="omar mohamed" pattern="[a-zA-Z]+"> </label>
+     <br>
+     <br>
+     <label for="Email">Email: <input type="email" name="email" placeholder="me@me.com"></label><br>
+     <br>
+     <label for="birth">Birth: <input type="date" name="date" id="date"></label><br><br>
+     <label for="password"> Password: <input type="password" name="pass" id="pass1"></label><br><br>
+     
+     <label for="gender"> gender:</label><br><br>
+     <label><input type="radio" name="sex" value="male" checked>Male</label>
+
+     <label><input type="radio" name="sex" value="female">Female</label><br><br>
+     <label for="checkbox">contact via mail: <input type="checkbox" name="contact1"></label>
+     <label for="checkbox">contact via phone: <input type="checkbox" name="contact2"></label><br><br>
+     <label>Range: <input type="range" name="rangeInput" min="1" max="10"></label>
+
+     <label>Color: <input type="color" name="colorInput" min="1" max="10"></label>
+
+     <label>Date: <input type="date" name="dateInput"></label>
+
+     <label>URL: <input type="url" name="urlInput"></label>
+     <input type="submit" value="Click here" >
+
+    </fieldset>
+   </form><br><br>
+   <form>
+    <label>Preferred email address:
+        <input type="email" id="email_addr" name="email1" value = "me@me.com" required></label>
+  
+      <label>Repeat email address:
+        <input type="email" id="email_repeat" name="email2" required onchange="return check()"></label>
+  
+    <input type = 'submit' value = "Confirm Emails!" onclick = "return check();">
+  </form> <br><br>
+  <fieldset>
+    <legend>checkbox</legend>
+    <label for="name"> Name: <input type="text" pattern="[a-zA-Z]+"> </label><br><br>
+    <label for="password"> Password: <input type="password" name="pass" ></label><br><br>
+    <div id="nickname">
+      <label for="nickname">Nick name:
+        <input type="checkbox" name="nname" id="nick" onchange="view()">
+      </label>
+      <label for="nickname" id="n" >Nick Name:
+        <input type="text" name="nickname" >
+      </label>
+      <input type="submit" value="submit">
+    </div>
+  </fieldset>
+ </body>
+</html>

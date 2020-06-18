@@ -1,0 +1,18 @@
+body{
+    background-color: #000000;
+}
+figure{
+    text-align: center;
+    text-decoration: underline;
+    color: honeydew;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+p{
+    color: honeydew;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+}

@@ -1,0 +1,17 @@
+div{
+ font-size:140%;
+}
+div[class^="visible"]{
+ border: 1px solid black;
+ margin-top:3%;
+} /*any class that starts (^=" ") with visible*/
+div[class$=lg]{
+ color:red;
+}/*any class that ends with ($=) lg*/
+div[class$=md]{
+ color: teal;
+}
+div[class$=sm]{
+ color: springgreen;
+}
+

@@ -1,0 +1,35 @@
+body{
+ background-color: rgba(0,0,255,.2);
+ padding: 1rem;
+}
+h1{
+	text-align: center;
+ color:rgba(255,0,0,.7);
+ font-size: 6rem;
+}
+.nav{
+ text-align: center;
+ background-color: rgba(0,0,255,.2);
+}
+.nav li{
+ border:0.2rem #000000 solid ;
+ border-radius: 0.8rem;
+ -webkit-border-radius: 0.8rem;
+ -moz-border-radius: 0.8rem;
+ -ms-border-radius: 0.8rem;
+ -o-border-radius: 0.8rem;
+ background-color: #ffffff;
+ padding: 0.8rem;
+}
+.nav>li{
+ margin-bottom: 1%;
+}
+section{
+ display: inline-block;
+}
+h2{
+ font-weight: bold;
+}
+.footer{
+ font-weight: bold;
+}

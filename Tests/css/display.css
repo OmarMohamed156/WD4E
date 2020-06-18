@@ -1,0 +1,32 @@
+div{
+    color: red;
+transition-property: color,background;
+transition-duration: 0.5s;
+transition-delay: 0.5s;
+transition-timing-function: ease-in-out;
+transform: 2s;
+}
+div:hover{
+color: rosybrown;
+background-color: springgreen;
+}
+button{
+    border: 0;
+    background: #0087cc;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #006599;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+}
+button:active {
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
+  }
+main:first-child div{
+    color: green;
+}
