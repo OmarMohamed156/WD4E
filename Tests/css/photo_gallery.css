@@ -1,0 +1,26 @@
+h1,caption{
+ color: crimson;
+ text-align: center;
+ font-size: 4vw;
+}
+.container{
+ text-align: center;
+ border: 1rem black dashed;
+ padding: 0.2%;
+}
+img{
+ width: 40%;
+ height: auto;
+}
+.row{
+ margin: 3%;
+}
+th{
+ font-size: 2rem;
+}
+td{
+ font: bold;
+ font-style: italic;
+ font-size: 1.5rem;
+ font-weight: bold;
+}
