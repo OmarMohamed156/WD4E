@@ -5,7 +5,6 @@ h1,caption{
 }
 .container{
  text-align: center;
- border: 1rem black dashed;
  padding: 0.2%;
 }
 img{
@@ -23,4 +22,26 @@ td{
  font-style: italic;
  font-size: 1.5rem;
  font-weight: bold;
+}
+figure{
+ border: 0.5rem black solid;
+ margin: 1%;
+ border-radius: 5%;
+ -webkit-border-radius: 5%;
+ -moz-border-radius: 5%;
+ -ms-border-radius: 5%;
+ -o-border-radius: 5%;
+}
+figcaption{
+ color: crimson;
+ font-style: italic;
+ font-weight: bold;
+ margin:1.2%;
+}
+img:hover{
+ transform: scale(1.2,1.2);
+ -webkit-transform: scale(1.2,1.2);
+ -moz-transform: scale(1.2,1.2);
+ -ms-transform: scale(1.2,1.2);
+ -o-transform: scale(1.2,1.2);
 }
