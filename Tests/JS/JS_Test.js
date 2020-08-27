@@ -59,3 +59,24 @@ else{
  }
 
  alert("yes, we made it..");
+
+ function isEven(num) {
+  if (num % 2 === 0) {
+   return true;
+  }
+  return false;
+ }
+
+ function Factorial(num) {
+  if(num === 1 || num===0){
+   return 1;
+  }
+  else{
+   return num*Factorial(num-1);
+  }
+ }
+
+ function Kebab2Snake(str){
+  let newString = str.replace(/-/g,"_");
+  return newString;
+ }
